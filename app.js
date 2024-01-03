@@ -7,7 +7,8 @@ dotenv.config();
 
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
-app.use(express.static('public'));
+// Middleware to parse JSON in request body
+app.use(express.json());
 
 app.post('/generateText', async (req, res) => {
     const input = req.body.input; // Assuming the input comes from the POST request
