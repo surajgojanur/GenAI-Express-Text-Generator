@@ -16,7 +16,7 @@ app.post('/generateText', async (req, res) => {
         const input = req.body.input; // Assuming the input comes from the POST request
 
         const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-        const result = await model.generateContentStream([input]);
+        const result = await model.generateContentStream([input+"Make this easier to remember, small and simple, but clear.,try to make a word or sentence of all points to remember easily "]);
         let generatedText = '';
 
         for await (const chunk of result.stream) {
