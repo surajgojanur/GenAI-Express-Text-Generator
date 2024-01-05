@@ -24,7 +24,9 @@ Retrieves the user input from the POST request body.
 Initiates the Google Generative AI model with the provided API key.
 Generates text based on the input using the "gemini-pro" model.
 Streams the generated text back as the HTTP response.
-![Screenshot 2024-01-05 135850](https://github.com/surajgojanur/Server_runing/assets/85693124/2113cbbc-d167-48f0-9580-c94ee848cf78)
+
+![Screenshot 2024-01-05 135850](https://github.com/surajgojanur/Server_runing/assets/85693124/f40e453e-9008-4880-bfd9-29e722b0c16a)
+
 <h1>Running the Server</h1>
 The server listens on port 3000 by default. Ensure no other service is utilizing the same port.
 
