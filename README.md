@@ -1,4 +1,4 @@
-Google Generative AI Text Generation with Express.js
+<h1>Google Generative AI Text Generation with Express.js</h1><br>
 This repository showcases a Node.js application utilizing the Google Generative AI service to generate text based on user input. The code employs Express.js to set up a server and handle HTTP POST requests.
 
 <h1>Prerequisites</h1>
