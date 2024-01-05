@@ -12,6 +12,7 @@ Install dependencies by running npm install.
 Create a .env file and add your Google Generative AI API key in the format API_KEY=YOUR_API_KEY.
 Start the server by running node app.js.
 
+
 <h1>Usage</h1>
 Send a POST request to /generateText endpoint with a JSON body containing the input key. The input field should contain the text you want to generate additional content for.
 The server will use the Google Generative AI model "gemini-pro" to generate text based on the provided input.
@@ -23,7 +24,7 @@ Retrieves the user input from the POST request body.
 Initiates the Google Generative AI model with the provided API key.
 Generates text based on the input using the "gemini-pro" model.
 Streams the generated text back as the HTTP response.
-
+![Screenshot 2024-01-05 135850](https://github.com/surajgojanur/Server_runing/assets/85693124/2113cbbc-d167-48f0-9580-c94ee848cf78)
 <h1>Running the Server</h1>
 The server listens on port 3000 by default. Ensure no other service is utilizing the same port.
 
